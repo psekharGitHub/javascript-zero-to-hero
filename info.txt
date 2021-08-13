@@ -1,0 +1,40 @@
+V8 from Google is the most used JavaScript engine. ...
+SpiderMonkey is developed by Mozilla for use in Firefox and its forks. ...
+JavaScriptCore is Apple's engine for its Safari browser. ...
+Chakra is the engine of the Internet Explorer browser.
+© 2021 GitHub, Inc.
+
+JavaScript
+--------------------------------------------------------------
+- var has default value is undefined
+- never use undefined for initializing a var
+- printing var before assignment will return 'undefined'
+  but if var is not even declared, it will give an error.
+- function can be called anywhere irrespective of declaration
+- JavaScript is asynchronous when apicalls or data calls are involved
+  synchronous when there is no waiting involved
+- JS has dynamic type recognition. Latest type of assigned value
+  decides the current type of the variable
+- paranthesis cannot cannot statement, only expressions
+- methods are within object, functions are outside object
+------------------------------------------------------------------
+- synchronous - waiting for one request to complete before taking
+                 other requests
+- asynchronous - Parallely serving multiple requests at same time
+------------------------------------------------------------------
+
+Hoisting 
+-----------------------------------------
+- execution engine scans the entire code
+- assigns memory to the variables and functions
+- return appropriate results
+
+Functions
+-------------------------------------------
+- returns undefined if return value is not explicitly mentioned
+
+
+Anonymous Functions
+--------------------------------------------
+- function with no name of its own
+- this function is assigned to a variable
