@@ -37,4 +37,7 @@ Functions
 Anonymous Functions
 --------------------------------------------
 - function with no name of its own
-- this function is assigned to a variable
+- this function is assigned to a variables
+
+
+----EOF-----
