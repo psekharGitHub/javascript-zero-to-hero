@@ -9,4 +9,5 @@ if (x === undefined) {
 
 var a =10;
 var b =getDataFromdatabase()
-var c =30;
+var c =30; 
+

@@ -19,7 +19,7 @@ var person = {
         return this.firstName + ' ' + this.lastName
     }
 }
-console.log(person)
+console.log(person, typeof person)
 console.log(person.firstName)
 console.log(person.lastName)
 console.log(person.address.state)

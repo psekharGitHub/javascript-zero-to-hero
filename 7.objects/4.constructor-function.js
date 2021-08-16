@@ -6,4 +6,4 @@ function Student(fName, lName){
 var student = new Student("Chris", "Evans")
 
 student.city = "Hyderabad"
-console.log(student)
+console.log(student, typeof student)

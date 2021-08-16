@@ -85,7 +85,6 @@ engine sets up a memory space for variables and functions.
 2. If it is a function it will copy entire function and keeps in memory 
 
 
-
 1. find out all the variables and functions in the code file
 
 a = undefined
@@ -99,7 +98,7 @@ This phenomenon is called hoisting
 
 
 undefined (23/09/2020)
-----------
+----------------------------------------------------------
 Special value in javascript which takes up memory space
 
 Warning : Never ever declare  a variable undefined, because 
@@ -234,6 +233,11 @@ var array = new Array(3) - length
 var array  = new Array(100000) - length will not create any memory
 
 array index starts from zero
+
+this
+-----------------------------
+- when function is outside the object, 'this' keyword points to global object
+- when function is inside the object, 'this' keyword points to local object (object inside which the function is present)
 
 Closure (28/09/2020)
 ----------
