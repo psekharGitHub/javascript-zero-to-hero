@@ -79,4 +79,5 @@ var studentObj = {
         console.log(this)
     }
 }
+studentObj.log()
 

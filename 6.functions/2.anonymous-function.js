@@ -28,6 +28,8 @@ var obj = {
     firstName: 'uma',
     LastName: 'mahesh',
     getFullName : function() {
-        this.firstName + ' ' + this.LastName
+        Fname = this.firstName + ' ' + this.LastName
+        return Fname;
         } 
-}
+};
+console.log(obj.getFullName());

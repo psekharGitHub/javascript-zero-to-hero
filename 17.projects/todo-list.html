@@ -139,9 +139,11 @@
                 });
                 tableBody.innerHTML = str;
             }
+            
             add = document.getElementById("add");
             add.addEventListener("click", getAndUpdate);
             update();
+
             function deleted(itemIndex){
                 console.log("Delete", itemIndex);
                 itemJsonArrayStr = localStorage.getItem('itemsJson')

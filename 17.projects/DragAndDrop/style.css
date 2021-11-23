@@ -1,0 +1,27 @@
+body {
+    background-color: slateblue;
+}
+
+.imgBox {
+    background-image: url('image.png');
+    position: relative;
+    height: 440px;
+    width: 400px;
+}
+
+.whitebox {
+    display: inline-block;
+    height: 455px;
+    width: 415px;
+    margin: 10px;
+    background-color: snow;
+    border: 3px black solid;
+}
+
+.hold {
+    border: 4px red solid;
+}
+
+.hide{
+    display: none;
+}

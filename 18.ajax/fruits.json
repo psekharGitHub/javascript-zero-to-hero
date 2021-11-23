@@ -1,0 +1,26 @@
+[
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "Apple",
+      "body": "Red"
+    },
+    {
+        "userId": 2,
+        "id": 2,
+        "title": "Orange",
+        "body": "Orange"
+      },
+      {
+        "userId": 3,
+        "id": 3,
+        "title": "Banana",
+        "body": "Yellow"
+      },
+      {
+        "userId": 4,
+        "id": 4,
+        "title": "Mango",
+        "body": "Green"
+      }
+]

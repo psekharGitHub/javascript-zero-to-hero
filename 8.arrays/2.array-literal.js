@@ -3,6 +3,8 @@
 */
 var data = ["Earth", "Mars", "Venus", "Titan"];
 
+
+console.log(typeof data)
 console.log(data)
 console.log(data[0])
 console.log(data[1])

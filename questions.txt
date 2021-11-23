@@ -1,2 +1,7 @@
 1. How to create private variables in JavaScript
 - using var keyword inside function
+
+
+
+
+    

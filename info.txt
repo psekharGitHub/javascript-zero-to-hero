@@ -40,4 +40,175 @@ Anonymous Functions
 - this function is assigned to a variables
 
 
+Node Types
+-----------
+ 1. Element
+ 2. Attributr
+ 3. text
+ 8. comment
+ 9. document
+ 10. doctype 
+ 11. docfragment 
+
+
+- Traversing downwards:-
+-----------------------------
+  <div class="add">
+  <h2 class="add__title">title</h2>
+  </div>
+  const component = document.querySelector('.add')
+  console.log(component)
+
+- children:-
+-----------------------------
+  const items= document.querySelector('.myclass')
+  const l_Items = items.children
+  console.log(l_Items)
+
+- Selecting a specific child:-
+-----------------------------
+  const mylist = document.querySelectorAll('li')
+  const firstItem = mylist[0]
+  const secondItem = mylist[1]
+  console.log(firstItem)
+  console.log(secondItem)
+
+- Traversing upwards: 
+- parentElement:-
+-----------------------------
+  const mylist = documen
+  t.querySelectorAll('li')
+  const firstItem = mylist[0]
+  const secondItem = mylist[1]
+  console.log(firstItem.parentElement)
+  console.log(secondItem.parentElement)
+
+- Traversing sideways:--
+- nextElementSibling:-
+-----------------------------
+  const item1 = document.
+  querySelector('li')
+  const item2 = item1.nextElementSibling
+  console.log(item2)
+
+- previousElementSibling:-
+-----------------------------
+  const item5 = document.querySelectorAll('li')[1]
+  const item6 = item5.previousElementSibling
+  console.log(item6)
+
+-Events
+----------------
+1. click
+2. mouseover
+3. Dblclick
+  const myclick = document.querySelector('aside');
+    myclick.addEventListener('dblclick', function (e) {
+    console.log(“Double click event occur”);
+  });
+
+4. Mousemove
+  const test= document.getElementById('test');
+    test.addEventListener('mousemove', function (e) {
+    console.log(“ Mousemove event occur”);
+  });
+
+5. i. Mouseover and 
+  const test= document.getElementById('test');
+  test.addEventListener("mouseover", function( event ) {
+    event.target.style.color = "red";
+  });
+
+  ii. Mouseout
+  const test= document.getElementById('test');
+  test.addEventListener("mouseout", function( event ) {   
+    event.target.style.color = "red";
+  });
+
+6.i. Mouseenter
+  const mouseTarget = document.getElementById('mouseTarget');
+  mouseTarget.addEventListener('mouseenter', function(e) {
+    mouseTarget.style.border = '5px dotted blue';
+  });
+
+ii. Mouseleave
+const mouseTarget = document.getElementById('mouseTarget');
+mouseTarget.addEventListener('mouseleave', function(e){
+  mouseTarget.style.border = '1px solid red';
+});
+
+7.i. Mousedown
+  myevent.addEventListener('mousedown', function(e) {
+    console.log("Mousedown event occur")
+  });
+
+ii. Mouseup
+myevent.addEventListener('mouseup', function(e) {
+  console.log("Mouseup event occur")
+});
+
+
+Object Prototyping
+--------------------------
+- It means from will an object start its  existance
+- Never alter the prototype of objects made from global Object (Object literal)
+- Alter prototype of objects created from constructors
+
+
+Backtick ( ` )
+
+Callback Functions
+------------------------
+- A callback is a function that is executed after another function has finished executing.
+  As we have studied earlier that functions are objects. Functions can take functions as 
+  arguments and can be returned by other functions. Functions that take another function as 
+  an argument are called higher-order functions. So, the callback function can also be 
+  defined as any function that is passed as an argument is called a callback function.
+
+- Why we need callback function ?
+  It helps us develop asynchronous JavaScript code and keeps us safe from future errors.
+
+Promise
+-------------
+- Promises are the ideal choice for asynchronous programming. Promises can handle multiple
+  asynchronous operations easily and are better at error handling as compared to callbacks
+  and events.
+
+- 3 states
+  - pending: It is the initial state.
+  - Fulfilled: It indicates that the promised operation was successful.
+  - Rejected: It indicates that the promised operation was unsuccessful.
+
+- Benifits of Promise
+  - It improves the code readability
+  - It is better in the handling of asynchronous operations
+  - It has a better flow of control definition in asynchronous logic
+  - It is better in error handling
+
+- Symbols
+------------
+ - What problem does it solve ?
+ - uppose that there are two companies, A and B, developed by two different people.
+   Both of them need to add a property to work on an object, but, they both end up
+   naming their property id by coincidence. This coincidence leads to one of the
+   companies overwriting the data stored in id. 
+ - Before ES6, when the object key could only be of the string type, this scenario
+   was a real possibility. String type object keys posed the danger of name collision
+   and led to the overwriting of data/values. In such a scenario, symbols have
+   provides a solution to this problem.
+
+-Drag Events
+--------------
+- drag - It is fired when a dragged item is dragged.
+- dragend - It is fired when a drag operation ends, such as releasing a mouse button or
+            hitting the Esc key.
+- dragenter - It is fired when a dragged item enters a valid drop target.
+- dragexit - It is fired when an element is no longer the drag operation's immediate
+              selection target.
+- dragleave - It is fired when a dragged item leaves a valid drop target.
+- dragover - It is fired when a dragged item is being dragged over a valid drop target,
+              every few hundred milliseconds.
+- dragstart - It is fired when the user starts dragging an item.
+- drop - It is fired when an item is dropped on a valid drop target.
+
 ----EOF-----

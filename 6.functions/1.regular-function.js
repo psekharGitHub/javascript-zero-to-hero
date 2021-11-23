@@ -37,6 +37,7 @@ console.log(output, typeof output)
 
 
 
+
 // console.log('Hey')
 // console.warn('Please check this')   //Warning message
 // console.info('Please provide more info please')
