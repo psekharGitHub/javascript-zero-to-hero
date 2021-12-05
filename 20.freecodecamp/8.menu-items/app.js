@@ -112,7 +112,7 @@ function displayMenuItems(menuItems) {
     sectionCenter.innerHTML = displayMenu
 }
 
-function displayMenuBtns(params) {
+function displayMenuBtns() {
     const categories = menu.reduce((values, item) => {
         if (!values.includes(item.category))
             values.push(item.category)

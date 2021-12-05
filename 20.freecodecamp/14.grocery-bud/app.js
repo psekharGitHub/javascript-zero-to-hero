@@ -23,7 +23,7 @@ form.addEventListener("submit", addItem)
 clearBtn.addEventListener('click', clearItems)
 
 //load item
-window.addEventListener('DOMConentLoaded', setupItems)
+window.addEventListener('DOMContentLoaded', setupItems)
 
 // ****** FUNCTIONS **********
 function addItem (e) {

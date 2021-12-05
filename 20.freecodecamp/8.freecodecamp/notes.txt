@@ -1,0 +1,3 @@
+power of css
+------------------
+inline > id > class > element selector 
